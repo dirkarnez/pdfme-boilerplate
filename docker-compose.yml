@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  my-pdfme:
+    build:
+      context: .
+    volumes:
+      - ./output:/output
+      - ./:/app
